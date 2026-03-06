@@ -1,17 +1,23 @@
-# [Anatomy of Massive Activations and Attention Sinks](https://arxiv.org/abs/2603.05498)
+# <div align="center">Anatomy of Massive Activations and Attention Sinks</div>
 
 Official PyTorch implementation of the ablation experiments in Section 4 of the following paper:
 
-[The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks](https://arxiv.org/abs/2603.05498).
-[Shangwen Sun](https://savinasun.github.io/), [Alfredo Canziani](https://atcold.github.io/), [Yann LeCun](http://yann.lecun.com) and [Jiachen Zhu](https://jiachenzhu.github.io)
+[The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks](https://arxiv.org/abs/2603.05498) \
+[Shangwen Sun](https://savinasun.github.io/), [Alfredo Canziani](https://atcold.github.io/), [Yann LeCun](http://yann.lecun.com) and [Jiachen Zhu](https://jiachenzhu.github.io)\
 New York University
 
 ---
 
 ## Installation
 
+To run this codebase, install the following libraries:
+
 ```bash
-pip install torch torchvision torchdata pyarrow wandb
+
+pip install torch torchvision
+pip install torchdata
+pip install pyarrow
+pip install wandb
 ```
 
 You will also need a [Weights &amp; Biases](https://wandb.ai/) account for experiment tracking:
