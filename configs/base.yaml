@@ -1,0 +1,10 @@
+seed: 2025
+
+checkpoint_interval: 25000
+
+tracker_project: tracker_project
+tracker_dir: tracker_dir
+report_interval: 10
+
+compile: true
+gc_interval: 100
